@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * BaaSify a parse-server based backend-as-a-service with multi-apps feature.
  * 
