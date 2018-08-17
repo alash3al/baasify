@@ -1,6 +1,6 @@
 {
   "name": "baasify",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Multi apps parse-server in the same instance",
   "main": "main.js",
   "dependencies": {
