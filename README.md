@@ -14,6 +14,8 @@ How it works
 $ redis-cli hset apps app1 '{"appId": "app1", "appSecret": "app1-secret-string"}'
 ```
 
+You can set the configurations in the `.env` file.
+
 Notes
 ======
 > You can use `pm2` workers to utilize the full power of your CPUs.
