@@ -1,7 +1,7 @@
 {
-  "name": "parsify",
+  "name": "baasify",
   "version": "1.0.0",
-  "description": "a multi-tenant parse server",
+  "description": "Multi apps parse-server in the same instance",
   "main": "main.js",
   "dependencies": {
     "dotenv": "^6.0.0",
@@ -14,6 +14,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Mohamed Al Ashaal",
+  "license": "MIT"
 }
