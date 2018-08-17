@@ -1,6 +1,6 @@
 {
   "name": "baasify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Multi apps parse-server in the same instance",
   "main": "main.js",
   "dependencies": {
@@ -14,6 +14,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "baasify": "./main.js"
+  },
+  "preferGlobal": true,
   "author": "Mohamed Al Ashaal",
   "license": "MIT"
 }
