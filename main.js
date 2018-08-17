@@ -5,9 +5,14 @@
  * @author Mohamed Al Ashaal <m7medalash3al@gmail.com>
  * @version 1.0.0
  */
+const conf = {
+    HTTP_PORT: process.env.HTTP_PORT || 7000,
+    MONGO_DSN: process.env.MONGO_DSN || "mongodb://localhost:27017",
+    REDIS_DSN: process.env.REDIS_DSN || "redis://localhost/1",
+    BASE_URL: process.env.BASE_URL || "http://localhost:7000"
+};
 const express = require('express');
 const ParseServer = require('parse-server').ParseServer;
-const conf = require('dotenv').config().parsed;
 const redis = require('redis').createClient(conf.REDIS_DSN);
 const fs = require('fs');
 const mux = express();

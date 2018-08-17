@@ -14,7 +14,12 @@ How it works
 $ redis-cli hset apps app1 '{"appId": "app1", "appSecret": "app1-secret-string"}'
 ```
 
-You can set the configurations in the `.env` file.
+You can set the configurations using the ENV vars
+
+- `HTTP_PORT`: the port to listen on, default is `7000`
+- `MONGO_DSN`: the mongodb uri, default is `mongodb://localhost:27017`
+- `REDIS_DSN`: the redis uri, default is `redis://localhost/1`
+- `BASE_URL`: the base server url, default is `http://localhost:7000`
 
 Notes
 ======
